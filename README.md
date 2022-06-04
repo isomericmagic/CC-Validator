@@ -15,10 +15,10 @@ Create another function, findInvalidCards() that has one parameter for a nested 
 After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
 
 Currently, there 4 accepted companies which each have unique first digits:
--3 - Amex (American Express)
--4 - Visa
--5 - Mastercard
--6 - Discover
+- Amex (American Express) - 3
+- Visa - 4
+- Mastercard - 5
+- Discover - 6
 
 If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
 
